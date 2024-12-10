@@ -1,13 +1,15 @@
 import * as React from "react";
-import "./top.css"
+import "./top.css";
 
-export default function ButtonAppBar() {
+export default function Navbar() {
   return (
     <div className="Navbar">
-      <div className="logo">LOGO</div>
+      <a href="/" className="logo">
+        LOGO
+      </a>
       <div className="menu_option">
-        <a href="#">My Thought</a>
-        <a href="#">Dairy</a>
+        <a>My Thought</a>
+        <a href="Copy">Copy</a>
       </div>
     </div>
   );

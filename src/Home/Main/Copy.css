@@ -1,4 +1,4 @@
-.Main{
+.Copy{
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +19,7 @@ height: 98%;
 }
 .tagBox{
   /* position: absolute; */
-  background-color: green;
+  background-color: rgb(115, 233, 115);
   border: none;
   padding-top: 3rem;
   height: 5.5rem;
@@ -29,12 +29,15 @@ height: 98%;
   width: 5rem;
   border-radius: 0rem 0rem 1rem 1rem;
   transition: transform .7s;
+  border: 2px solid black;
 }
 .tagBox h2{
   font-size: 25px;
 }
 .tagBox:hover{
   transform: translate(0px, 10px);
+  background-color: rgb(54, 170, 54);
+  color: bisque;
 }
 
 .list_display{

@@ -1,13 +1,15 @@
 import { Jan_main } from "../Months/Jan/Jan_main";
 import { Feb_main } from "../Months/Feb/Feb_main";
-import "./Main.css";
+import "./Copy.css";
 import React, { useState } from "react";
+import Navbar from "../Navbar/top";
 
-export function Main() {
+export function Copy() {
   const [showJan, setJan] = useState(true);
   const [showFeb, setFeb] = useState(false);
   return (
     <div className="Main">
+      <Navbar />
       <div className="Months_Tag">
         <div className="Month_tag_align">
           <button

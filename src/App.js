@@ -1,13 +1,14 @@
+import "./App.css";
+import { Copy } from "./Home/Main/Copy";
+import { Home } from "./Home/Main/Home";
 
-import './App.css';
-import { Main } from './Home/Main/Main.jsx';
-import ButtonAppBar from "./Home/Navbar/top";
+import Navbar from "./Home/Navbar/top";
 
 function App() {
   return (
     <div className="App">
-      <ButtonAppBar />
-      <Main />
+      {window.location.pathname === "/" ? <Home /> : null}
+      {window.location.pathname === "/Copy" ? <Copy /> : null}
     </div>
   );
 }
