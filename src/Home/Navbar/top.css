@@ -1,0 +1,20 @@
+.Navbar {
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  justify-content: center;
+  gap: 70rem;
+position: absolute;
+z-index: 1;
+height: 3rem;
+width: 100vw;
+}
+.logo{
+  background-color: aquamarine;
+}
+
+.menu_option{
+  background-color: rebeccapurple;
+  width: 10rem;
+  display: flex;
+  justify-content: space-around;
+}

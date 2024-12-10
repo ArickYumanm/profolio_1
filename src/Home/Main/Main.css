@@ -1,0 +1,51 @@
+.Main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Months_Tag{
+  width: 98%;
+height: 98%;
+/* background-color: red; */
+}
+.Month_tag_align{
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  /* background-color: rebeccapurple; */
+  height: 3rem;
+  position: relative;
+}
+.tagBox{
+  /* position: absolute; */
+  background-color: green;
+  border: none;
+  padding-top: 3rem;
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 5rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+  transition: transform .7s;
+}
+.tagBox h2{
+  font-size: 25px;
+}
+.tagBox:hover{
+  transform: translate(0px, 10px);
+}
+
+.list_display{
+  /* background-color: rebeccapurple; */
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+  /* height: 60rem; */
+  width: 100%;
+}
+.list_display_align{
+  /* background-color: burlywood; */
+  width: 96%;
+}

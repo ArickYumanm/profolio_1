@@ -1,0 +1,39 @@
+.Page_main{
+  display: flex;
+}
+.main_screen{
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  width: 100%;
+}
+.elements{
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  gap: 1.5rem;
+  background-color: aquamarine;
+  text-decoration: none;
+  color: rgb(26, 26, 26);
+}
+.elements:hover{
+  color: rgb(92, 92, 92);
+
+}
+.Dates{
+  /* background-color: brown; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 2px solid black;
+  width: 5rem;
+
+}
+.Topics{
+  /* background-color: teal; */
+  max-width: 85rem;
+}
+p{
+  font-weight: 600;
+  font-size: 20px;
+}
