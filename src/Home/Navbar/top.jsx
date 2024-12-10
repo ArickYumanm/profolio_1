@@ -6,8 +6,8 @@ export default function ButtonAppBar() {
     <div className="Navbar">
       <div className="logo">LOGO</div>
       <div className="menu_option">
-        <a>My Thought</a>
-        <a>Dairy</a>
+        <a href="#">My Thought</a>
+        <a href="#">Dairy</a>
       </div>
     </div>
   );

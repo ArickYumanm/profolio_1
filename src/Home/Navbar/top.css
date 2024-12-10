@@ -2,19 +2,33 @@
   background-color: rgb(255, 0, 0);
   display: flex;
   justify-content: center;
-  gap: 70rem;
+  gap: 65rem;
 position: absolute;
 z-index: 1;
 height: 3rem;
 width: 100vw;
 }
 .logo{
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
+  font-size: 25px;
+  font-weight:500;
+  display: flex;
+  align-items: center;
 }
 
 .menu_option{
   background-color: rebeccapurple;
-  width: 10rem;
+  width: 15rem;
+  font-size: 20px;
+  font-weight:500;
   display: flex;
   justify-content: space-around;
+  align-items: center;
+}
+.menu_option a{
+  text-decoration: none;
+  color: black;
+}
+.menu_option a:hover{
+  color: rgb(32, 32, 32);
 }
